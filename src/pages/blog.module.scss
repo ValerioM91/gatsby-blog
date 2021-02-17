@@ -21,7 +21,9 @@
   margin: 0;
   padding: 1rem 0;
   text-align: center;
-  border-bottom: 3px solid var(--background-light-2);
+  &:not(:last-child) {
+    border-bottom: 3px solid var(--background-light-2);
+  }
 
   a {
     // background: var(--background-light-2);

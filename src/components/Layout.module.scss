@@ -16,6 +16,7 @@
     flex-direction: column;
     .main {
       border-right: 0;
+      border-bottom: 3px solid var(--background-light-2);
     }
   }
 }
