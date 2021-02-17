@@ -50,17 +50,12 @@ const Header = () => {
               Contact
             </Link>
           </li>
-          <li>
-            <Link
-              to="/blog"
-              className={HeaderStyle.navItem}
-              activeClassName={HeaderStyle.activeNavItem}
-            >
-              Blog
-            </Link>
-          </li>
         </ul>
       </nav>
+      <h6 className={HeaderStyle.quote}>
+        “I read so I can live more than one life in more than one place”
+        <span> – Anne Tyler</span>
+      </h6>
     </header>
   );
 };

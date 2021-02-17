@@ -2,15 +2,16 @@ import React from "react";
 import { Link } from "gatsby";
 
 import Head from "../components/head";
-
 import Layout from "../components/Layout";
+import Image from "../components/Images";
 
 const about = () => {
   return (
     <Layout>
       <Head title="About" />
-      <h1>About me</h1>
-      <p>I'm Valerio bla bla bla</p>
+      <h2>About me</h2>
+      <Image src="img/IMG_2135.PNG" alt="oh my god" />
+      <p>Sei bruuuutto</p>
       <p>
         <Link to="/contact">Contact me</Link>
       </p>

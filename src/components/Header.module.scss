@@ -1,9 +1,20 @@
 .header {
-  padding: 1rem 0 3rem;
+  padding: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-light-2);
+  background-image: url(../img/flowers.png);
+  // background-size: cover;
+  background-position: bottom;
 }
 
 .title {
-  color: #333;
+  font-family: "EB Garamond", serif;
+  color: var(--primary-color);
+  background-color: var(--background-light-2);
+  font-weight: 500;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -12,19 +23,34 @@
   display: flex;
   list-style-type: none;
   margin: 0;
+  background-color: var(--background-light-2);
+
+  li:not(:last-child) {
+    margin-right: 1.3rem;
+  }
 }
 
 .nav-item {
-  color: #999;
+  color: var(--text-color);
   text-decoration: none;
-  font-size: 0.9rem;
-  margin-right: 1.3rem;
+  // font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .nav-item:hover {
-  color: #666;
+  color: var(--text-color-dark);
 }
 
 .active-nav-item {
-  color: #333;
+  color: var(--text-color-dark);
+}
+
+.quote {
+  background-color: var(--background-light-2);
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center;
+  & span {
+    font-style: normal;
+  }
 }

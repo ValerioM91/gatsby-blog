@@ -16,7 +16,9 @@ const Footer = () => {
 
   return (
     <div className={FooterStyles.footer}>
-      <p>Created by {data.site.siteMetadata.author}, © 2021</p>
+      <p className={`row ${FooterStyles.text}`}>
+        {data.site.siteMetadata.author}, © 2021
+      </p>
     </div>
   );
 };

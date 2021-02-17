@@ -7,7 +7,7 @@ const contact = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <h1>Contact info</h1>
+      <h2>Contact info</h2>
       <p>Tel: 111111</p>
       <p>Email: hhhh@ggg.com</p>
       <p>Address: cu;oqf</p>

@@ -1,3 +1,10 @@
 .footer {
-  margin-top: 3rem;
+  // margin-top: 3rem;
+  padding: 1rem;
+  background-color: var(--background-dark);
+  color: var(--text-color-white);
+
+  & .text {
+    text-align: center;
+  }
 }

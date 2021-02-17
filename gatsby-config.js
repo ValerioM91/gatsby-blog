@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Testing gatsby",
-    author: "Valerio Mattera",
+    title: "Martina's Books",
+    author: "Martina Mattera",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -21,6 +21,8 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-image",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -29,7 +31,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 750,
+              maxWidth: 800,
               linkImagesToOriginal: false,
             },
           },
