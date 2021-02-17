@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS } from "@contentful/rich-text-types";
+import blogStyle from "../pages/blog.module.scss";
 
 import Head from "../components/head";
 import Layout from "../components/Layout";
@@ -56,8 +57,8 @@ const Blog = props => {
   return (
     <Layout>
       <Head title={title} />
-      <h1>{title}</h1>
-      <p>{publishedDate}</p>
+      <h2>{title}</h2>
+      <p className={blogStyle.post__date}>{publishedDate}</p>
       {documentToReactComponents(rawBlogPostObject, options)}
     </Layout>
   );
