@@ -20,6 +20,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--background-light-1);
+  color: var(--text-color);
 }
 
 .row {
@@ -42,8 +44,8 @@ h2 {
 }
 
 h3 {
-  // font-family: "EB Garamond", serif;
-  font-size: 1.2rem;
+  font-family: "EB Garamond", serif;
+  font-size: 1.3rem;
   text-align: center;
   color: var(--primary-color);
 }
@@ -58,4 +60,7 @@ p a {
     color: var(--primary-color-dark);
     border-bottom: 1px solid;
   }
+}
+.image__container {
+  margin-bottom: 1.5rem;
 }

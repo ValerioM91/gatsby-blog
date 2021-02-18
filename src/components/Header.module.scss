@@ -6,14 +6,13 @@
   align-items: center;
   background-color: var(--background-light-2);
   background-image: url(../img/flowers.png);
-  // background-size: cover;
   background-position: bottom;
 }
 
 .title {
   font-family: "EB Garamond", serif;
+  text-align: center;
   color: var(--primary-color);
-  background-color: var(--background-light-2);
   font-weight: 500;
   font-size: 3rem;
   text-decoration: none;
@@ -24,6 +23,7 @@
   list-style-type: none;
   margin: 0;
   background-color: var(--background-light-2);
+  padding: 1rem;
 
   li:not(:last-child) {
     margin-right: 1.3rem;
@@ -33,21 +33,21 @@
 .nav-item {
   color: var(--text-color);
   text-decoration: none;
-  // font-size: 0.9rem;
   font-weight: 700;
 }
 
 .nav-item:hover {
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
 }
 
-.active-nav-item {
-  color: var(--text-color-dark);
-}
+// .active-nav-item {
+//   color: var(--text-color-dark);
+// }
 
 .quote {
   background-color: var(--background-light-2);
-  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
   font-style: italic;
   text-align: center;
   & span {

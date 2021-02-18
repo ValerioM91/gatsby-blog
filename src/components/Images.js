@@ -1,30 +1,3 @@
-// import React from "react";
-// import { graphql, useStaticQuery } from "gatsby";
-// import Image from "gatsby-image";
-
-// const Img = ({ src, alt }) => {
-//   const queryString = `
-//       query {
-//         allFile(filter: { absolutePath: { regex: "./img/${src}/" } }) {
-//           nodes {
-//             relativePath
-//           }
-//         }
-//       }
-//     `;
-//   const query = useStaticQuery(
-//     graphql`
-//       ${queryString}
-//     `
-//   );
-//   return (
-//     <>
-//       <Image fixed={query.data.file.childImageSharp.fixed} alt={alt} />
-//     </>
-//   );
-// };
-
-// export default Img;
 import React, { useMemo } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";

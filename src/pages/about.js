@@ -10,7 +10,9 @@ const about = () => {
     <Layout>
       <Head title="About" />
       <h2>About me</h2>
-      <Image src="img/IMG_2135.PNG" alt="oh my god" />
+      <div className="image__container">
+        <Image src="img/IMG_2135.PNG" alt="oh my god" />
+      </div>
       <p>Sei bruuuutto</p>
       <p>
         <Link to="/contact">Contact me</Link>

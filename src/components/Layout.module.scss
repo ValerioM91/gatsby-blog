@@ -27,4 +27,14 @@
   border-right: 3px solid var(--background-light-2);
   padding: 2rem;
   max-width: 800px;
+
+  img {
+    margin-bottom: 1.5rem;
+  }
+
+  p i {
+    padding-right: 1rem;
+    width: 2rem;
+    text-align: center;
+  }
 }

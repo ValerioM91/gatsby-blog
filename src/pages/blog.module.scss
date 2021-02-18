@@ -26,7 +26,6 @@
   }
 
   a {
-    // background: var(--background-light-2);
     color: var(--text-color);
     text-decoration: none;
     display: block;
@@ -41,6 +40,13 @@
   h2 {
     margin-bottom: 0.3rem;
   }
+
+  // &__title {
+  //   font-family: "EB Garamond", serif;
+  //   text-align: center;
+  //   color: var(--primary-color);
+  //   font-size: 1.3rem;
+  // }
 
   &__date {
     font-style: italic;
@@ -62,6 +68,6 @@
   }
 
   &__text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
